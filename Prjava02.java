@@ -25,6 +25,7 @@ public class Prjava02 {
             System.out.println("Nom de l'usuari: " + System.getProperty("user.name"));
             System.out.println("Carpeta Personal: " + System.getProperty("user.home"));
             System.out.println("Sistema operatiu: " + System.getProperty("os.name"));
+	    System.out.println("Creació d'una branca del projecte prjava02");
             System.out.println("Versió OS: " + System.getProperty("os.version"));
         }
         catch (IOException e) {
